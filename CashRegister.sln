@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashRegister.ConsoleApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister.UI", "CashRegister.UI\CashRegister.UI.csproj", "{ABB741E8-B004-4918-8688-8E2B30433B55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashRegister.WebApp", "CashRegister.WebApp\CashRegister.WebApp.csproj", "{6F25DD35-9205-4EA8-8690-AB87656E7FFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ABB741E8-B004-4918-8688-8E2B30433B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABB741E8-B004-4918-8688-8E2B30433B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABB741E8-B004-4918-8688-8E2B30433B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F25DD35-9205-4EA8-8690-AB87656E7FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F25DD35-9205-4EA8-8690-AB87656E7FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F25DD35-9205-4EA8-8690-AB87656E7FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F25DD35-9205-4EA8-8690-AB87656E7FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

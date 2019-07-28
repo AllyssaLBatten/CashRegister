@@ -45,14 +45,17 @@ namespace CashRegister.Core
         /// <param name="filePath">Path to the input file</param>
         public void LoadFromFile(string filePath)
         {
-            var ledgerString = File.ReadAllText(filePath);
-
-            if (ledger == null)
+            if (File.Exists(filePath))
             {
-                ledger = ledgerFactory.ExecuteCreation(Layout);
-            }
+                var ledgerString = File.ReadAllText(filePath);
 
-            ledger.Load(ledgerString);
+                if (ledger == null)
+                {
+                    ledger = ledgerFactory.ExecuteCreation(Layout);
+                }
+
+                ledger.Load(ledgerString);
+            }
         }
 
         /// <summary>
